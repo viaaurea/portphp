@@ -1,7 +1,7 @@
 {
-    "name": "portphp/portphp",
+    "name": "viaaurea/portphp-portphp",
     "description": "Data import/export workflow",
-    "keywords": [ "data", "import", "export", "csv", "excel", "doctrine" ],
+    "keywords": ["data", "import", "export", "csv", "excel", "doctrine"],
     "license": "MIT",
     "homepage": "https://github.com/portphp",
     "authors": [
@@ -24,9 +24,12 @@
         "docs": "https://portphp.readthedocs.org"
     },
     "require": {
-        "php": ">=7.4",
+        "php": ">=8",
         "symfony/property-access": "^4.4 || ^5.4 || ^6.0 || ^7.0",
         "symfony/validator": "^4.4 || ^5.4 || ^6.0 || ^7.0"
+    },
+    "replace": {
+        "portphp/portphp": "1.9.*"
     },
     "autoload": {
         "psr-4": {
